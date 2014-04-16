@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GAMERULES title="Warhammer 40K 5th Edition">
+	<rule>
+		<name>Asalto Rabioso</name>
+		<text>En el turno que asalta, tiene +1 I y +1 F en c.c. No afecta a "persecuciones arrolladoras"</text>
+		<type>Asalto</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Cazacarros</name>
+		<text> +1 penetracion de vehiculos (distancia y c.c) y supera automaticamente Chequeos de Moral por brutalidad acorazada</text>
+		<type>Asalto</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Contraataque</name>
+		<text>Hace chequeo de liderazgo cuando es asaltada. Si supera, +1 ataque (como si hubiera asaltado este turno). No se activa si YA estaba trabada c.c.</text>
+		<type>Asalto</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Enemigo Predilecto</name>
+		<text>Puede repetir las tiradas para impactar cuerpo a cuerpo contra su enemigo predilecto. No funciona contra vehiculos sin habilidad de armas</text>
+		<type>Asalto</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Avance Sistematico</name>
+		<text>Se considera que tiene la regla Implacable, pero siempre mueve como si fuera por terreno dificil. Un personaje independiente que se una a una unidad, tambien mueve como si fuera por terreno dificil (ya que la unidad mueve lo que mueva su miniatura mas lenta)</text>
+		<type>Disparo</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Cazacarros</name>
+		<text> +1 penetracion de vehiculos (distancia y c.c) y supera automaticamente Chequeos de Moral por brutalidad acorazada</text>
+		<type>Disparo</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Enjambre</name>
+		<text>Sigilo y Vulnerable a Explosiones. No ofrece TSCobertura a criaturas monstruosas ni a vehiculos</text>
+		<type>Disparo</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Guerrero Eterno</name>
+		<text>Inmune al efecto "muerte instantánea"</text>
+		<type>Disparo</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Sigilo</name>
+		<text>Tirada de Salvacion por Cobertura +1</text>
+		<type>Disparo</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Jinete Experto</name>
+		<text>Puede repetir cualquier chequeo de terreno peligroso no superado, mientras sea motorista o caballeria</text>
+		<type>Movimiento</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		<name>Moverse a Través de Cobertura</name>
+		<text>Tira 1d adicional para calcular su movimiento por terreno dificil. La mayoria de los casos esto significa que tira 3d6 y elige el resultado mayor</text>
+		<type>Movimiento</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>
+	<rule>		
+		<name>Veloces</name>
+		<text>Puede asaltar el mismo turno que ha corrido. Tiene varios nombres: pies ligeros, rapidos, trote, etc..</text>
+		<type>Movimiento</type>
+		<strength>8</strength>
+		<penetration>2</penetration>
+		<uses>5</uses>
+	</rule>	
+</GAMERULES>

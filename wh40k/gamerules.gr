@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GAMERULES title="Warhammer 40K 5th Edition">
+	<rule>
+		<name>Asalto Rabioso</name>
+		<text>En el turno que asalta, tiene +1 I y +1 F en c.c. No afecta a "persecuciones arrolladoras"</text>
+		<type>Asalto</type>
+	</rule>
+	<rule>	
+		<name>Atacar y Huir</name>
+		<text>Puede destrabarse al final de la fase de asalto superando un Chequeo de Iniciativa. Mueve 3d6 en linea recta en la posicion que elija. No se modifica por terreno difícil pero sí peligroso. La unidad enemiga puede "consolidar posición". Si ambas unidades tienen esta regla, tira un dado para determinar iniciativa y destrabalas en orden. Si la última estaba destrabada, "consolida posicion". No pueden realizarse persecuciones arrolladoras. No puede usarse para entrar en contacto con el enemigo</text>
+		<type>Asalto</type>
+	</rule>
+	<rule>		
+		<name>Cazacarros</name>
+		<text> +1 penetracion de vehiculos (distancia y c.c) y supera automaticamente Chequeos de Moral por brutalidad acorazada</text>
+		<type>Asalto</type>
+	</rule>
+	<rule>		
+		<name>Contraataque</name>
+		<text>Hace chequeo de liderazgo cuando es asaltada. Si supera, +1 ataque (como si hubiera asaltado este turno). No se activa si YA estaba trabada c.c.</text>
+		<type>Asalto</type>
+	</rule>
+	<rule>		
+		<name>Enemigo Predilecto</name>
+		<text>Puede repetir las tiradas para impactar cuerpo a cuerpo contra su enemigo predilecto. No funciona contra vehiculos sin habilidad de armas</text>
+		<type>Asalto</type>
+	</rule>
+	<rule>		
+		<name>Implacables</name>
+		<text>Puede disparar fuego rápido y pesada aunque haya movido (considerandose estacionario), en este turno o el anterior. Tambien puede asaltar el mismo turno que dispara. Un personaje con esta habilidad que se une a una unidad sin esta habilidad, esta sujeto a las restricciones de asalto de dicha unidad</text>
+		<type>Asalto</type>
+	</rule>
+	<rule>		
+		<name>Avance Sistematico</name>
+		<text>Se considera que tiene la regla Implacable, pero siempre mueve como si fuera por terreno dificil. Un personaje independiente que se una a una unidad, tambien mueve como si fuera por terreno dificil (ya que la unidad mueve lo que mueva su miniatura mas lenta)</text>
+		<type>Disparo</type>
+	</rule>
+	<rule>		
+		<name>Cazacarros</name>
+		<text> +1 penetracion de vehiculos (distancia y c.c) y supera automaticamente Chequeos de Moral por brutalidad acorazada</text>
+		<type>Disparo</type>
+	</rule>
+	<rule>		
+		<name>Enjambre</name>
+		<text>Sigilo y Vulnerable a Explosiones. No ofrece TSCobertura a criaturas monstruosas ni a vehiculos</text>
+		<type>Disparo</type>
+	</rule>
+	<rule>		
+		<name>Guerrero Eterno</name>
+		<text>Inmune al efecto "muerte instantánea"</text>
+		<type>Disparo</type>
+	</rule>
+	<rule>		
+		<name>Implacables</name>
+		<text>Puede disparar fuego rápido y pesada aunque haya movido (considerandose estacionario), en este turno o el anterior. Tambien puede asaltar el mismo turno que dispara. Un personaje con esta habilidad que se une a una unidad sin esta habilidad, esta sujeto a las restricciones de asalto de dicha unidad</text>
+		<type>Disparo</type>
+	</rule>
+	<rule>		
+		<name>Sigilo</name>
+		<text>Tirada de Salvacion por Cobertura +1</text>
+		<type>Disparo</type>
+	</rule>
+	<rule>		
+		<name>Vision Nocturna/Sentidos Agudos</name>
+		<text>Puede repetir las tiradas de alcance en un combate nocturno, pero debe aceptar el segundo resultado. Un heroe con esta habilidad la comparte con la unidad a la que se una (mientras siga unido). Un heroe sin esta habilidad la puede usar mientras pertenezca a una unidad que la tenga.</text>
+		<type>Disparo</type>
+	</rule>
+	<rule>		
+		<name>Vulnerable a Explosiones</name>
+		<text>Si es un vehiculo, cada impacto cuenta como dos. Si no, cada herida no salvada causa 2</text>
+		<type>Disparo</type>
+	</rule>
+	<rule>		
+		<name>¡No hay Dolor!</name>
+		<text>Al perder una herida, tira un dado: con 4,5,6 la herida no se ha sufrido. Esta habilidad es inútil contra "muerte instantánea" (aunque sea Guerrero Eterno), FP1/FP2, armas de energía, y heridas sin TSA</text>
+		<type>General</type>
+	</rule>
+	<rule>		
+		<name>Exploradores</name>
+		<text>Tras desplegar Infiltradores y antes de empezar la partida, pueden mover su movimiento normal permaneciendo a mas de 30 cm del enemigo. Si va montada en transporte, le da esta habilidad. Si se mantiene en reserva tiene Flanqueo. Si ambos jugadores tienen Exploradores, tira un dado y quien saque mas alto decide quien mueve primero</text>
+		<type>General</type>
+	</rule>
+	<rule>		
+		<name>Infiltracion</name>
+		<text>Despliega en ultimo lugar, despues de los dos ejercitos. Si ambos ejercitos tienen Infiltradores, tira dado para decidir iniciativa (quien tiene iniciativa elige quien despliega). Pueden desplegarse a mas de 30cm de un enemigo sin que ningun enemigo les trace linea de vision, o a mas de 45cm en cualquier caso. Si se mantiene en reserva, tiene la regla Flanqueo</text>
+		<type>General</type>
+	</rule>
+	<rule>		
+		<name>Coraje</name>
+		<text>Supera automaticamente los Chequeos de Moral y de Acobardamiento. Nunca se pueden Retirar. Puede ponerse voluntariamente "¡Cuerpo a Tierra!". Si un personaje independiente se une a una unidad que tiene esta habilidad, la gana. Si un personaje con esta habilidad se une a una unidad que no la tiene, la pierde. Una unidad que se retira si se beneficia de esta regla se Reagrupa automáticamente al inicio de su siguiente fase de movimiento, ignorando las restricciones habituales.</text>
+		<type>Moral</type>
+	</rule>
+	<rule>		
+		<name>Testarudo</name>
+		<text>Ignora los modificadores negativos a los Chequeos de Moral. Un personaje independiente comparte esta habilidad con la unidad a la que se una</text>
+		<type>Moral</type>
+	</rule>
+	<rule>		
+		<name>Jinete Experto</name>
+		<text>Puede repetir cualquier chequeo de terreno peligroso no superado, mientras sea motorista o caballeria</text>
+		<type>Movimiento</type>
+	</rule>
+	<rule>		
+		<name>Moverse a Través de Cobertura</name>
+		<text>Tira 1d adicional para calcular su movimiento por terreno dificil. La mayoria de los casos esto significa que tira 3d6 y elige el resultado mayor</text>
+		<type>Movimiento</type>
+	</rule>
+	<rule>		
+		<name>Rabia</name>
+		<text>DEBEN mover y DEBEN consolidar posicion siempre, y hacia el enemigo mas proximo visible. Pueden correr pero solo hacia el enemigo mas proximo visible. Si se bate en retirada, embarca o no hay enemigos visibles, no se aplica esta regla</text>
+		<type>Movimiento</type>
+	</rule>
+	<rule>		
+		<name>Turbopropulsores</name>
+		<text>SI LO EMPLEA, mueve hasta 60cm. pero no puede moverse por terreno dificil ni disparar ni asaltar ni hacer otra accion voluntaria. Ademas, en la siguiente fase de disparo del adversario: tiene TSCobertura 3+ si acaba su movimiento al menos a 45cm. de su posicion original, tampoco puede usar cuerpo a tierra y supera automaticamente Chequeos de acobardamiento</text>
+		<type>Movimiento</type>
+	</rule>
+	<rule>		
+		<name>Veloces</name>
+		<text>Puede asaltar el mismo turno que ha corrido. Tiene varios nombres: pies ligeros, rapidos, trote, etc..</text>
+		<type>Movimiento</type>
+		
+	</rule>	
+</GAMERULES>
